@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA43770B2ADA7A8500725A5E /* MetaliOSLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA43770A2ADA7A8500725A5E /* MetaliOSLabApp.swift */; };
+		EA43770D2ADA7A8500725A5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA43770C2ADA7A8500725A5E /* ContentView.swift */; };
+		EA43770F2ADA7A8900725A5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA43770E2ADA7A8900725A5E /* Assets.xcassets */; };
+		EA4377122ADA7A8900725A5E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA4377112ADA7A8900725A5E /* Preview Assets.xcassets */; };
+		EA43771A2ADA7C5800725A5E /* InstructionThroughput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4377182ADA7C5700725A5E /* InstructionThroughput.swift */; };
+		EA43771B2ADA7C5800725A5E /* InstructionThroughputKernels.metal in Sources */ = {isa = PBXBuildFile; fileRef = EA4377192ADA7C5800725A5E /* InstructionThroughputKernels.metal */; };
+		EA43771D2ADB3F1100725A5E /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA43771C2ADB3F1000725A5E /* Context.swift */; };
+		EA4377202ADBA35700725A5E /* CommandConcurrency.metal in Sources */ = {isa = PBXBuildFile; fileRef = EA43771E2ADBA35600725A5E /* CommandConcurrency.metal */; };
+		EA4377212ADBA35700725A5E /* CommandConcurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA43771F2ADBA35700725A5E /* CommandConcurrency.swift */; };
+		EA4377252ADBB4C700725A5E /* CallStackOverflow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4377222ADBB4C600725A5E /* CallStackOverflow.swift */; };
+		EA4377262ADBB4C700725A5E /* FullScreenColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4377232ADBB4C600725A5E /* FullScreenColor.swift */; };
+		EA4377272ADBB4C700725A5E /* FunctionCallOverhead.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4377242ADBB4C700725A5E /* FunctionCallOverhead.swift */; };
+		EA4377292ADBBD1800725A5E /* Tests.metal in Sources */ = {isa = PBXBuildFile; fileRef = EA4377282ADBBD1800725A5E /* Tests.metal */; };
+		EA43772B2ADBBD9A00725A5E /* MetalFloat64 in Resources */ = {isa = PBXBuildFile; fileRef = EA43772A2ADBBD9A00725A5E /* MetalFloat64 */; };
+		EA43772D2ADBCB2D00725A5E /* Double.metal in Sources */ = {isa = PBXBuildFile; fileRef = EA43772C2ADBCB2D00725A5E /* Double.metal */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA4377072ADA7A8500725A5E /* MetaliOSLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetaliOSLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA43770A2ADA7A8500725A5E /* MetaliOSLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaliOSLabApp.swift; sourceTree = "<group>"; };
+		EA43770C2ADA7A8500725A5E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EA43770E2ADA7A8900725A5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA4377112ADA7A8900725A5E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EA4377182ADA7C5700725A5E /* InstructionThroughput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructionThroughput.swift; sourceTree = "<group>"; };
+		EA4377192ADA7C5800725A5E /* InstructionThroughputKernels.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = InstructionThroughputKernels.metal; sourceTree = "<group>"; };
+		EA43771C2ADB3F1000725A5E /* Context.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
+		EA43771E2ADBA35600725A5E /* CommandConcurrency.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = CommandConcurrency.metal; sourceTree = "<group>"; };
+		EA43771F2ADBA35700725A5E /* CommandConcurrency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandConcurrency.swift; sourceTree = "<group>"; };
+		EA4377222ADBB4C600725A5E /* CallStackOverflow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallStackOverflow.swift; sourceTree = "<group>"; };
+		EA4377232ADBB4C600725A5E /* FullScreenColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullScreenColor.swift; sourceTree = "<group>"; };
+		EA4377242ADBB4C700725A5E /* FunctionCallOverhead.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionCallOverhead.swift; sourceTree = "<group>"; };
+		EA4377282ADBBD1800725A5E /* Tests.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Tests.metal; sourceTree = "<group>"; };
+		EA43772A2ADBBD9A00725A5E /* MetalFloat64 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MetalFloat64; sourceTree = "<group>"; };
+		EA43772C2ADBCB2D00725A5E /* Double.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Double.metal; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA4377042ADA7A8500725A5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA4376FE2ADA7A8500725A5E = {
+			isa = PBXGroup;
+			children = (
+				EA4377092ADA7A8500725A5E /* MetaliOSLab */,
+				EA4377082ADA7A8500725A5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA4377082ADA7A8500725A5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA4377072ADA7A8500725A5E /* MetaliOSLab.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA4377092ADA7A8500725A5E /* MetaliOSLab */ = {
+			isa = PBXGroup;
+			children = (
+				EA43772C2ADBCB2D00725A5E /* Double.metal */,
+				EA43771C2ADB3F1000725A5E /* Context.swift */,
+				EA4377282ADBBD1800725A5E /* Tests.metal */,
+				EA43770A2ADA7A8500725A5E /* MetaliOSLabApp.swift */,
+				EA43770C2ADA7A8500725A5E /* ContentView.swift */,
+				EA4377222ADBB4C600725A5E /* CallStackOverflow.swift */,
+				EA4377232ADBB4C600725A5E /* FullScreenColor.swift */,
+				EA43772A2ADBBD9A00725A5E /* MetalFloat64 */,
+				EA4377242ADBB4C700725A5E /* FunctionCallOverhead.swift */,
+				EA4377192ADA7C5800725A5E /* InstructionThroughputKernels.metal */,
+				EA43771E2ADBA35600725A5E /* CommandConcurrency.metal */,
+				EA43771F2ADBA35700725A5E /* CommandConcurrency.swift */,
+				EA4377182ADA7C5700725A5E /* InstructionThroughput.swift */,
+				EA43770E2ADA7A8900725A5E /* Assets.xcassets */,
+				EA4377102ADA7A8900725A5E /* Preview Content */,
+			);
+			path = MetaliOSLab;
+			sourceTree = "<group>";
+		};
+		EA4377102ADA7A8900725A5E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EA4377112ADA7A8900725A5E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA4377062ADA7A8500725A5E /* MetaliOSLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA4377152ADA7A8900725A5E /* Build configuration list for PBXNativeTarget "MetaliOSLab" */;
+			buildPhases = (
+				EA4377032ADA7A8500725A5E /* Sources */,
+				EA4377042ADA7A8500725A5E /* Frameworks */,
+				EA4377052ADA7A8500725A5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MetaliOSLab;
+			productName = MetaliOSLab;
+			productReference = EA4377072ADA7A8500725A5E /* MetaliOSLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA4376FF2ADA7A8500725A5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					EA4377062ADA7A8500725A5E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = EA4377022ADA7A8500725A5E /* Build configuration list for PBXProject "MetaliOSLab" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA4376FE2ADA7A8500725A5E;
+			productRefGroup = EA4377082ADA7A8500725A5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA4377062ADA7A8500725A5E /* MetaliOSLab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA4377052ADA7A8500725A5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4377122ADA7A8900725A5E /* Preview Assets.xcassets in Resources */,
+				EA43770F2ADA7A8900725A5E /* Assets.xcassets in Resources */,
+				EA43772B2ADBBD9A00725A5E /* MetalFloat64 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA4377032ADA7A8500725A5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4377252ADBB4C700725A5E /* CallStackOverflow.swift in Sources */,
+				EA43770D2ADA7A8500725A5E /* ContentView.swift in Sources */,
+				EA4377202ADBA35700725A5E /* CommandConcurrency.metal in Sources */,
+				EA43771A2ADA7C5800725A5E /* InstructionThroughput.swift in Sources */,
+				EA43771B2ADA7C5800725A5E /* InstructionThroughputKernels.metal in Sources */,
+				EA4377262ADBB4C700725A5E /* FullScreenColor.swift in Sources */,
+				EA4377212ADBA35700725A5E /* CommandConcurrency.swift in Sources */,
+				EA4377292ADBBD1800725A5E /* Tests.metal in Sources */,
+				EA43772D2ADBCB2D00725A5E /* Double.metal in Sources */,
+				EA4377272ADBB4C700725A5E /* FunctionCallOverhead.swift in Sources */,
+				EA43771D2ADB3F1100725A5E /* Context.swift in Sources */,
+				EA43770B2ADA7A8500725A5E /* MetaliOSLabApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EA4377132ADA7A8900725A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA4377142ADA7A8900725A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA4377162ADA7A8900725A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MetaliOSLab/Preview Content\"";
+				DEVELOPMENT_TEAM = 2LU393X4XQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangge.MetaliOSLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA4377172ADA7A8900725A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MetaliOSLab/Preview Content\"";
+				DEVELOPMENT_TEAM = 2LU393X4XQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangge.MetaliOSLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA4377022ADA7A8500725A5E /* Build configuration list for PBXProject "MetaliOSLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA4377132ADA7A8900725A5E /* Debug */,
+				EA4377142ADA7A8900725A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA4377152ADA7A8900725A5E /* Build configuration list for PBXNativeTarget "MetaliOSLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA4377162ADA7A8900725A5E /* Debug */,
+				EA4377172ADA7A8900725A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA4376FF2ADA7A8500725A5E /* Project object */;
+}
