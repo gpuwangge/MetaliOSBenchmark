@@ -25,7 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EA4377072ADA7A8500725A5E /* MetaliOSLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetaliOSLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA4377072ADA7A8500725A5E /* MetaliOSBenchmark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetaliOSBenchmark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA43770A2ADA7A8500725A5E /* MetaliOSLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaliOSLabApp.swift; sourceTree = "<group>"; };
 		EA43770C2ADA7A8500725A5E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EA43770E2ADA7A8900725A5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 		EA4376FE2ADA7A8500725A5E = {
 			isa = PBXGroup;
 			children = (
-				EA4377092ADA7A8500725A5E /* MetaliOSLab */,
+				EA4377092ADA7A8500725A5E /* MetaliOSBenchmark */,
 				EA4377082ADA7A8500725A5E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,12 +65,12 @@
 		EA4377082ADA7A8500725A5E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EA4377072ADA7A8500725A5E /* MetaliOSLab.app */,
+				EA4377072ADA7A8500725A5E /* MetaliOSBenchmark.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EA4377092ADA7A8500725A5E /* MetaliOSLab */ = {
+		EA4377092ADA7A8500725A5E /* MetaliOSBenchmark */ = {
 			isa = PBXGroup;
 			children = (
 				EA43772C2ADBCB2D00725A5E /* Double.metal */,
@@ -89,7 +89,7 @@
 				EA43770E2ADA7A8900725A5E /* Assets.xcassets */,
 				EA4377102ADA7A8900725A5E /* Preview Content */,
 			);
-			path = MetaliOSLab;
+			path = MetaliOSBenchmark;
 			sourceTree = "<group>";
 		};
 		EA4377102ADA7A8900725A5E /* Preview Content */ = {
@@ -103,9 +103,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EA4377062ADA7A8500725A5E /* MetaliOSLab */ = {
+		EA4377062ADA7A8500725A5E /* MetaliOSBenchmark */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA4377152ADA7A8900725A5E /* Build configuration list for PBXNativeTarget "MetaliOSLab" */;
+			buildConfigurationList = EA4377152ADA7A8900725A5E /* Build configuration list for PBXNativeTarget "MetaliOSBenchmark" */;
 			buildPhases = (
 				EA4377032ADA7A8500725A5E /* Sources */,
 				EA4377042ADA7A8500725A5E /* Frameworks */,
@@ -115,9 +115,9 @@
 			);
 			dependencies = (
 			);
-			name = MetaliOSLab;
+			name = MetaliOSBenchmark;
 			productName = MetaliOSLab;
-			productReference = EA4377072ADA7A8500725A5E /* MetaliOSLab.app */;
+			productReference = EA4377072ADA7A8500725A5E /* MetaliOSBenchmark.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -135,7 +135,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EA4377022ADA7A8500725A5E /* Build configuration list for PBXProject "MetaliOSLab" */;
+			buildConfigurationList = EA4377022ADA7A8500725A5E /* Build configuration list for PBXProject "MetaliOSBenchmark" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -148,7 +148,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EA4377062ADA7A8500725A5E /* MetaliOSLab */,
+				EA4377062ADA7A8500725A5E /* MetaliOSBenchmark */,
 			);
 		};
 /* End PBXProject section */
@@ -312,7 +312,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MetaliOSLab/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MetaliOSBenchmark/Preview Content\"";
 				DEVELOPMENT_TEAM = 2LU393X4XQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -341,7 +341,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MetaliOSLab/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MetaliOSBenchmark/Preview Content\"";
 				DEVELOPMENT_TEAM = 2LU393X4XQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -366,7 +366,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EA4377022ADA7A8500725A5E /* Build configuration list for PBXProject "MetaliOSLab" */ = {
+		EA4377022ADA7A8500725A5E /* Build configuration list for PBXProject "MetaliOSBenchmark" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA4377132ADA7A8900725A5E /* Debug */,
@@ -375,7 +375,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA4377152ADA7A8900725A5E /* Build configuration list for PBXNativeTarget "MetaliOSLab" */ = {
+		EA4377152ADA7A8900725A5E /* Build configuration list for PBXNativeTarget "MetaliOSBenchmark" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA4377162ADA7A8900725A5E /* Debug */,
