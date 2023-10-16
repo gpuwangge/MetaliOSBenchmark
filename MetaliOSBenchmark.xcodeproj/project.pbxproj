@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EA43770B2ADA7A8500725A5E /* MetaliOSLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA43770A2ADA7A8500725A5E /* MetaliOSLabApp.swift */; };
+		EA43770B2ADA7A8500725A5E /* MetaliOSBenchmarkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA43770A2ADA7A8500725A5E /* MetaliOSBenchmarkApp.swift */; };
 		EA43770D2ADA7A8500725A5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA43770C2ADA7A8500725A5E /* ContentView.swift */; };
 		EA43770F2ADA7A8900725A5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA43770E2ADA7A8900725A5E /* Assets.xcassets */; };
 		EA4377122ADA7A8900725A5E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA4377112ADA7A8900725A5E /* Preview Assets.xcassets */; };
@@ -26,7 +26,7 @@
 
 /* Begin PBXFileReference section */
 		EA4377072ADA7A8500725A5E /* MetaliOSBenchmark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetaliOSBenchmark.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA43770A2ADA7A8500725A5E /* MetaliOSLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaliOSLabApp.swift; sourceTree = "<group>"; };
+		EA43770A2ADA7A8500725A5E /* MetaliOSBenchmarkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaliOSBenchmarkApp.swift; sourceTree = "<group>"; };
 		EA43770C2ADA7A8500725A5E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EA43770E2ADA7A8900725A5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA4377112ADA7A8900725A5E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -76,7 +76,7 @@
 				EA43772C2ADBCB2D00725A5E /* Double.metal */,
 				EA43771C2ADB3F1000725A5E /* Context.swift */,
 				EA4377282ADBBD1800725A5E /* Tests.metal */,
-				EA43770A2ADA7A8500725A5E /* MetaliOSLabApp.swift */,
+				EA43770A2ADA7A8500725A5E /* MetaliOSBenchmarkApp.swift */,
 				EA43770C2ADA7A8500725A5E /* ContentView.swift */,
 				EA4377222ADBB4C600725A5E /* CallStackOverflow.swift */,
 				EA4377232ADBB4C600725A5E /* FullScreenColor.swift */,
@@ -182,7 +182,7 @@
 				EA43772D2ADBCB2D00725A5E /* Double.metal in Sources */,
 				EA4377272ADBB4C700725A5E /* FunctionCallOverhead.swift in Sources */,
 				EA43771D2ADB3F1100725A5E /* Context.swift in Sources */,
-				EA43770B2ADA7A8500725A5E /* MetaliOSLabApp.swift in Sources */,
+				EA43770B2ADA7A8500725A5E /* MetaliOSBenchmarkApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
