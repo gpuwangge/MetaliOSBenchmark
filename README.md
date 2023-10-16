@@ -1,6 +1,6 @@
 # MetaliOSBenchmark
 ![iOS](https://img.shields.io/badge/iOS-passing-brightgreen)
-![macOS](https://img.shields.io/badge/Android-passing-brightgreen)  
+![macOS](https://img.shields.io/badge/macOS-passing-brightgreen)  
 Integrated Metal iOS Benchmark from:  
 https://github.com/philipturner/metal-benchmarks  
 
